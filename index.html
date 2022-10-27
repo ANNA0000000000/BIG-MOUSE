@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>My LIFF App</title>
+</head>
+<body>
+    <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
+    <script>
+        async function main() {
+                                         // Liff ID
+            await liff.init({ liffId: "1657598415-Jee5AEVA" })
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    // ข้อความก่อนกดอ่าน
+                    altText: "กดรับด่วน เครดิตฟรีมาถึงคุณแล้ว",
+                    contents: 
+                    // โค้ดจาก line bot designer
+                    {
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "🐭BIG MOUSE🐭",
+                "align": "center",
+                "color": "#000033",
+                "weight": "bold",
+                "size": "xl"
+              },
+              {
+                "type": "text",
+                "text": "BETTING CASINO AND GAME SLOT ONLINE",
+                "align": "center",
+                "size": "xxs",
+                "color": "#ffffff",
+                "offsetStart": "none",
+                "offsetTop": "none",
+                "weight": "bold"
+              }
+            ],
+            "borderWidth": "none",
+            "borderColor": "#0000FF",
+            "cornerRadius": "xl",
+            "backgroundColor": "#ff9999"
+          }
+        ],
+        "offsetTop": "md",
+        "cornerRadius": "xl",
+        "paddingStart": "md",
+        "paddingEnd": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://media.discordapp.net/attachments/1019624894981472348/1027227577707929700/02-01.jpg",
+            "size": "full"
+          }
+        ],
+        "spacing": "none",
+        "margin": "xl",
+        "cornerRadius": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "คุณพี่สนใจทำรายการใดดีคะ?",
+                    "align": "center",
+                    "offsetTop": "xs",
+                    "offsetBottom": "none",
+                    "offsetStart": "none",
+                    "weight": "bold",
+                    "color": "#000033"
+                  }
+                ],
+                "paddingTop": "sm",
+                "paddingBottom": "md",
+                "cornerRadius": "xl",
+                "borderWidth": "none",
+                "borderColor": "#0000FF",
+                "offsetTop": "md",
+                "backgroundColor": "#ff9999"
+              }
+            ],
+            "paddingAll": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#ff9900",
+              "endColor": "#ff9900",
+              "centerColor": "#ff9900"
+            },
+            "cornerRadius": "xl",
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "margin": "none"
+          },
+          {
+            "type": "text",
+            "text": "🍪 สมาชิกใหม่ฝาก 300 รับ 500 🍪",
+            "color": "#ffffff",
+            "align": "center"
+          },
+          {
+            "type": "text",
+            "text": "🧀 แจกเครดิตฟรี 50 เครดิต 🧀",
+            "color": "#ffffff",
+            "align": "center",
+            "offsetTop": "none",
+            "margin": "sm"
+          },
+          {
+            "type": "text",
+            "text": "🥨 ใครที่ยังไม่มีทุน มาทางนี้ 🥨",
+            "align": "center",
+            "color": "#ffffff",
+            "margin": "sm"
+          }
+        ],
+        "borderWidth": "normal",
+        "cornerRadius": "xxl",
+        "background": {
+          "type": "linearGradient",
+          "angle": "0deg",
+          "endColor": "#cc3366",
+          "startColor": "#cc3366",
+          "centerColor": "#660000"
+        },
+        "spacing": "md",
+        "margin": "md",
+        "borderColor": "#CC0066"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "รับเครดิตฟรี",
+                "align": "center",
+                "margin": "xs",
+                "size": "md",
+                "color": "#ffffff",
+                "weight": "bold"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "size": "full",
+                    "aspectRatio": "5:1",
+                    "animated": true,
+                    "url": "https://cdn.discordapp.com/attachments/1030756674186788914/1035122081060364299/ezgif.com-gif-maker_26.png"
+                  }
+                ],
+                "cornerRadius": "xxl",
+                "borderWidth": "none",
+                "borderColor": "#0000FF",
+                "backgroundColor": "#ff9999",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "https://lin.ee/lhLvOJP"
+                }
+              }
+            ],
+            "borderWidth": "normal",
+            "borderColor": "#CC0066",
+            "cornerRadius": "xl",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "endColor": "#cc3366",
+              "startColor": "#cc3366",
+              "centerColor": "#660000"
+            },
+            "offsetTop": "none",
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "ทำกิจกรรม"
+            },
+            "paddingBottom": "none"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "สมัครสมาชิก",
+                "align": "center",
+                "margin": "xs",
+                "size": "md",
+                "color": "#ffffff",
+                "weight": "bold"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://cdn.discordapp.com/attachments/1030756674186788914/1035122081060364299/ezgif.com-gif-maker_26.png",
+                    "size": "full",
+                    "aspectRatio": "5:1",
+                    "animated": true
+                  }
+                ],
+                "cornerRadius": "xxl",
+                "borderWidth": "none",
+                "borderColor": "#0000FF",
+                "backgroundColor": "#ff9999",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "http://www.superjoker99.com/"
+                }
+              }
+            ],
+            "borderWidth": "normal",
+            "borderColor": "#CC0066",
+            "cornerRadius": "xl",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "endColor": "#cc3366",
+              "startColor": "#cc3366",
+              "centerColor": "#660000"
+            },
+            "offsetTop": "none",
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "โปรโมชั่น"
+            },
+            "paddingBottom": "none",
+            "backgroundColor": "#339999"
+          }
+        ],
+        "spacing": "sm",
+        "margin": "md",
+        "offsetTop": "xs",
+        "offsetBottom": "none",
+        "offsetEnd": "none",
+        "offsetStart": "none",
+        "paddingBottom": "md"
+      }
+    ],
+    "borderWidth": "light",
+    "borderColor": "#CC0066",
+    "cornerRadius": "xl",
+    "background": {
+      "type": "linearGradient",
+      "angle": "0deg",
+      "startColor": "#cc3366",
+      "centerColor": "#660000",
+      "endColor": "#cc3366"
+    },
+    "paddingAll": "md"
+  }
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+</html>
